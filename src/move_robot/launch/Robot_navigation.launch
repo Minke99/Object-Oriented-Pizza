@@ -1,0 +1,7 @@
+<launch>
+      <include file="$(find move_robot)/launch/Robot_World.launch"/>
+
+     <node name="map_navigation" pkg="move_robot" type="map_navigation_node" output="screen">
+     </node>
+</launch>
+

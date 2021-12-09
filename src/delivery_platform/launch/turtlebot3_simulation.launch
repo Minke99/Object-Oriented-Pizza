@@ -1,0 +1,10 @@
+<launch>
+  <arg name="cmd_vel" default="/cmd_vel"/>
+  <arg name="name" default="turtlebot3"/>
+
+  <param name="cmd_vel_topic_name" value="$(arg cmd_vel)"/>
+
+  <node name="$(arg name)_drive" pkg="delivery_platform" type="main" required="true" output="screen"/>
+
+
+</launch>
