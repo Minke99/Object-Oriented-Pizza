@@ -18,19 +18,23 @@ Turtlebot3
 
 ## System Design
 High level overview:
-<div align=center><img width = '500' src = "https://github.com/KNN-6948/Pizza-Delivery/blob/main/chart/High%20level%20overview.jpg"></div>
+
+<img src = "https://github.com/KNN-6948/Pizza-Delivery/blob/main/chart/High%20level%20overview.jpg">
+
 
 |Node|Roll 
-|---     |---  
+|:---:     |:---:  
 |User_Interface|Client 
 |Delivery_Platform|Order Delivery System 
 |Move_Robot|Navigation system
 |Apriltag_ROS|Recognizing AprilTags
 
+
 #### Demo
 Turtlebot & AprilTag:
-<div align=center><img width = '500' src = "https://github.com/KNN-6948/Pizza-Delivery/blob/main/demo/demo1.png"></div>
+
+<img width = '400' src = "https://github.com/KNN-6948/Pizza-Delivery/blob/main/demo/demo1.png">
 
 RViz mapping:
-<div align=center><img width = '500' src = "https://github.com/KNN-6948/Pizza-Delivery/blob/main/demo/rviz.png"></div>
 
+<img width = '650' src = "https://github.com/KNN-6948/Pizza-Delivery/blob/main/demo/rviz.png">
